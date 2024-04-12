@@ -1,0 +1,37 @@
+/* Reset default margin and padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body styles */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f8f8f8;
+    color: #333;
+}
+
+
+
+/* Section styles */
+section {
+    padding: 1rem;
+    margin-bottom: 1rem;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    color: #000000;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+}
+
+section h1, section h2 {
+    margin-bottom: 0.5rem;
+}
+
+section hr {
+    border: 1px solid #333;
+    margin-bottom: 0.5rem;
+}
